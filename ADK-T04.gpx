@@ -1,0 +1,869 @@
+<?xml version="1.0" standalone="yes" ?>
+<gpx version="1.1" creator="EADS Geogrid - Navigation" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+    <metadata>
+        <name>Tracks</name>
+        <time>2010-04-21T14:47:42Z</time>
+    </metadata>
+    <trk>
+        <name>ADK-T04</name>
+        <number>0</number>
+        <trkseg>
+            <trkpt lat="48.234802" lon="9.689003">
+                <ele>521.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.234586" lon="9.689162">
+                <ele>516.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.234384" lon="9.688969">
+                <ele>520.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.234209" lon="9.688664">
+                <ele>522.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.233966" lon="9.687997">
+                <ele>525.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.234132" lon="9.687639">
+                <ele>526.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.234403" lon="9.687965">
+                <ele>526.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.234624" lon="9.688062">
+                <ele>527.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.235176" lon="9.687852">
+                <ele>529.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.235103" lon="9.687311">
+                <ele>529.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.234903" lon="9.685895">
+                <ele>527.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.234748" lon="9.685220">
+                <ele>527.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.233768" lon="9.681804">
+                <ele>525.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.233650" lon="9.681466">
+                <ele>524.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.233545" lon="9.681028">
+                <ele>523.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.233246" lon="9.680124">
+                <ele>521.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.233137" lon="9.679335">
+                <ele>520.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.233141" lon="9.678549">
+                <ele>519.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.233182" lon="9.678094">
+                <ele>519.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.233341" lon="9.677945">
+                <ele>519.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.234442" lon="9.677153">
+                <ele>521.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.234684" lon="9.676863">
+                <ele>522.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.235335" lon="9.676075">
+                <ele>524.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.235627" lon="9.675899">
+                <ele>524.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.236537" lon="9.675740">
+                <ele>526.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.236980" lon="9.675736">
+                <ele>527.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.237505" lon="9.675866">
+                <ele>528.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.238079" lon="9.676215">
+                <ele>531.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.238534" lon="9.676383">
+                <ele>535.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.238946" lon="9.676407">
+                <ele>540.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.243315" lon="9.676493">
+                <ele>549.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.242751" lon="9.672747">
+                <ele>554.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.242851" lon="9.672533">
+                <ele>555.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.243597" lon="9.672563">
+                <ele>555.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.243724" lon="9.672464">
+                <ele>555.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.243951" lon="9.672137">
+                <ele>555.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.244142" lon="9.671776">
+                <ele>556.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.244725" lon="9.671124">
+                <ele>559.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.245553" lon="9.670670">
+                <ele>561.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.246243" lon="9.670309">
+                <ele>566.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.246568" lon="9.670091">
+                <ele>569.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.246728" lon="9.669635">
+                <ele>573.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.249524" lon="9.668258">
+                <ele>594.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.248096" lon="9.663230">
+                <ele>594.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.250397" lon="9.662102">
+                <ele>589.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.250416" lon="9.662188">
+                <ele>589.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.250786" lon="9.662003">
+                <ele>588.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.250330" lon="9.658359">
+                <ele>581.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.250274" lon="9.658102">
+                <ele>581.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.250020" lon="9.656823">
+                <ele>578.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.249670" lon="9.656999">
+                <ele>577.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.249511" lon="9.657016">
+                <ele>577.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.249365" lon="9.656928">
+                <ele>577.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.249189" lon="9.656479">
+                <ele>577.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.249025" lon="9.656239">
+                <ele>577.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.248810" lon="9.656102">
+                <ele>579.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.248398" lon="9.655907">
+                <ele>580.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.246699" lon="9.654295">
+                <ele>591.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.246351" lon="9.654081">
+                <ele>587.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.245965" lon="9.653724">
+                <ele>585.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.245744" lon="9.653426">
+                <ele>583.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.245492" lon="9.653013">
+                <ele>582.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.245238" lon="9.652884">
+                <ele>577.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.245080" lon="9.652854">
+                <ele>580.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.244940" lon="9.652871">
+                <ele>575.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.244833" lon="9.652584">
+                <ele>578.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.244531" lon="9.652085">
+                <ele>579.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.244283" lon="9.650930">
+                <ele>576.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.244285" lon="9.650520">
+                <ele>576.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.244300" lon="9.650206">
+                <ele>577.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.244065" lon="9.650137">
+                <ele>573.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.244111" lon="9.648728">
+                <ele>574.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.244122" lon="9.647976">
+                <ele>571.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.244092" lon="9.647633">
+                <ele>568.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.244114" lon="9.646967">
+                <ele>565.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.244173" lon="9.646777">
+                <ele>561.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.244250" lon="9.646645">
+                <ele>561.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.244263" lon="9.646483">
+                <ele>561.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.244002" lon="9.646556">
+                <ele>560.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.242158" lon="9.646533">
+                <ele>545.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.241728" lon="9.646648">
+                <ele>542.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.241364" lon="9.647025">
+                <ele>537.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.240851" lon="9.647723">
+                <ele>530.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.240584" lon="9.647824">
+                <ele>529.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.239813" lon="9.647976">
+                <ele>519.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.238524" lon="9.648864">
+                <ele>509.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.238161" lon="9.648917">
+                <ele>507.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.237850" lon="9.648875">
+                <ele>507.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.237659" lon="9.648786">
+                <ele>506.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.237463" lon="9.648651">
+                <ele>505.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.238507" lon="9.643990">
+                <ele>506.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.238521" lon="9.643609">
+                <ele>506.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.236741" lon="9.643654">
+                <ele>512.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.236710" lon="9.643986">
+                <ele>509.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.236522" lon="9.644631">
+                <ele>505.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.236381" lon="9.644839">
+                <ele>504.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.235641" lon="9.645287">
+                <ele>507.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.235779" lon="9.645688">
+                <ele>504.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.235552" lon="9.646333">
+                <ele>505.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.235223" lon="9.647242">
+                <ele>504.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.234902" lon="9.647828">
+                <ele>504.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.234536" lon="9.648338">
+                <ele>504.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.233685" lon="9.649288">
+                <ele>505.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.233228" lon="9.650315">
+                <ele>503.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.233052" lon="9.651037">
+                <ele>504.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.233036" lon="9.651684">
+                <ele>504.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.233171" lon="9.652428">
+                <ele>504.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.233296" lon="9.652896">
+                <ele>504.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.233319" lon="9.653353">
+                <ele>503.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.233298" lon="9.653676">
+                <ele>503.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.233050" lon="9.654739">
+                <ele>503.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.232550" lon="9.657655">
+                <ele>503.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.232389" lon="9.658024">
+                <ele>503.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.232062" lon="9.658486">
+                <ele>503.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.231631" lon="9.659299">
+                <ele>502.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.230990" lon="9.659530">
+                <ele>503.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.229340" lon="9.663930">
+                <ele>501.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.229146" lon="9.664152">
+                <ele>502.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.228232" lon="9.664930">
+                <ele>502.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.226980" lon="9.663572">
+                <ele>502.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.224269" lon="9.666706">
+                <ele>502.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.222309" lon="9.670821">
+                <ele>501.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.220773" lon="9.673970">
+                <ele>501.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.220673" lon="9.674077">
+                <ele>501.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.221170" lon="9.675294">
+                <ele>501.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.221322" lon="9.675512">
+                <ele>501.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.222526" lon="9.678677">
+                <ele>501.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.224619" lon="9.676874">
+                <ele>501.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.225739" lon="9.675960">
+                <ele>501.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.226045" lon="9.675883">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.226250" lon="9.676290">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.226355" lon="9.676695">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.226310" lon="9.676815">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.226139" lon="9.676840">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.225716" lon="9.676794">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.225263" lon="9.677340">
+                <ele>499.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.225244" lon="9.677596">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.225341" lon="9.677960">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.226106" lon="9.679249">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.226532" lon="9.680304">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.226678" lon="9.681417">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.226961" lon="9.682336">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.227012" lon="9.682794">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.227024" lon="9.683763">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.226735" lon="9.684029">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.226554" lon="9.684174">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.226354" lon="9.684468">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.227664" lon="9.686558">
+                <ele>499.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.228164" lon="9.687184">
+                <ele>499.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.229568" lon="9.688454">
+                <ele>499.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.229581" lon="9.688569">
+                <ele>499.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.229676" lon="9.688685">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.230302" lon="9.689226">
+                <ele>501.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.230295" lon="9.689454">
+                <ele>502.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.230380" lon="9.690027">
+                <ele>503.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.230770" lon="9.689784">
+                <ele>504.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.232465" lon="9.689093">
+                <ele>509.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.232763" lon="9.688793">
+                <ele>513.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.232866" lon="9.688547">
+                <ele>514.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.232993" lon="9.688615">
+                <ele>517.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.233155" lon="9.689074">
+                <ele>514.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.234126" lon="9.688459">
+                <ele>522.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <name>ADK-T04A</name>
+        <number>1</number>
+        <trkseg>
+            <trkpt lat="48.222666" lon="9.678572">
+                <ele>501.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.224181" lon="9.682481">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.224323" lon="9.682712">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.224556" lon="9.682850">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.224969" lon="9.682936">
+                <ele>499.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.225498" lon="9.683226">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.226053" lon="9.683637">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+            <trkpt lat="48.226554" lon="9.684168">
+                <ele>500.000000</ele>
+                <time>1970-01-01T01:00:00Z</time>
+                <type>Trackpoint</type>
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx>
