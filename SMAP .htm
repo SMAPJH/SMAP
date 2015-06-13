@@ -97,15 +97,11 @@ L.tileLayer('http://tiles.codefor.de/static/bbs/germany/{z}/{x}/{y}.png', {
   //buildCtrls().addTo(map);
 
   var ulm = new L.LatLng(48.40, 9.98);
-  map.setView(ulm, 13);  
+  map.setView(ulm, 10);  
   var gpx = 'file:///C:/Users/tobi/Documents/smap/SMAP/Blaubeuren-Ulm.gpx'; // URL to your GPX file or the GPX itself
-new L.GPX(gpx, {async: true}).on('loaded', function(e) {
-  map.fitBounds(e.target.getBounds());
-}).addTo(map);  
+new L.GPX(gpx, {async: true}).addTo(map);  
            var gpx2 = 'file:///C:/Users/tobi/Documents/smap/SMAP/ADK-T04.gpx'; // URL to your GPX file or the GPX itself
-new L.GPX(gpx2, {async: true}).on('loaded', function(e) {
-  map.fitBounds(e.target.getBounds());
-}).addTo(map);   
+new L.GPX(gpx2, {async: true}).addTo(map);   
 </script>
 </body>
 </html>
