@@ -27,7 +27,10 @@
              padding-left: 5px;
              background-color: #888888;
          }
-    #map { height: 500px; } 
+    #map { min-height: 500px; height:100% } 
+         body {
+             background-color: #7a7777;
+         }
      </style>
     <link href="style.css" type="text/css" rel="stylesheet"> 
        <link rel="stylesheet" href="leaflet.css" />
@@ -45,10 +48,11 @@
 <center>
 <h1><span style="color: #000080;">S</span>MAP</h1></center>
 <center><h3><span style="color: #000080;">Der intelligente Routenfinder</span></h3></center>
-<table border="1" width="100%">
+<table border="0" width="100%">
  
   <tr>
     <td width="200px"> 
+    <form id="auswahl" name="Auswahl" >
     <div class="Abstand"><span style="color: #FFFFFF;">Einstellungen</span></div>
                           
     <div  class="Abstand"> <span style="color: #FFFFFF;">Profil</span> </div>
@@ -66,6 +70,12 @@
       <div  class="Auswahl1"><input type="radio" name="Filter" value="Schattig"> Schattig </div>
       
     <div  class="Abstand"> <span style="color: #FFFFFF;">Laenge</span></div>
+
+    <div  class="Auswahl1"><input type="radio" name="Laenge" value="Kurz" checked> Kurz</div>
+    
+     <div  class="Auswahl1"><input type="radio" name="Laenge" value="Mittel"> Mittel </div>
+     
+      <div  class="Auswahl1"><input type="radio" name="Laenge" value="Lang"> Lang </div>
     
     
     <div  class="Abstand"> <span style="color: #FFFFFF;">Boden</span></div>
@@ -74,18 +84,17 @@
      
      <div  class="Auswahl"><input type="radio" name="Boden" value="Teilweise Asphalt"> Teilweise Asphalt</div>
      
-     <div  class="Auswahl"><input type="radio" name="Boden" value="Teilweise Asphalt"> Waldweg</div>
+     <div  class="Auswahl"><input type="radio" name="Boden" value="Waldwege"> Waldweg</div>
      
-      <div  class="Auswahl"><input type="radio" name="Boden" value="Teilweise Asphalt"> Feldwege</div>
+      <div  class="Auswahl"><input type="radio" name="Boden" value="Feldwege"> Feldwege</div>
       
      
     <div  class="Abstand"> <span style="color: #FFFFFF;">Gelaendelevel</span></div>
                            <div  class="Auswahl"><input type="radio" name="Gelaendelevel" value="Einfach" checked> Einfach</div>
                           <div class="Auswahl"><input type="radio" name="Gelaendelevel" value="Mittel" checked> Mittel</div> 
                             <div  class="Auswahl"><input type="radio" name="Gelaendelevel" value="Anspruchsvoll" checked>Anspruchsvoll </div>
+	</form>
               
-    
-    <div  class="Abstand"> <span style="color: #FFFFFF;">Wetter</span></div>
     </td>
         <td> 
             <div id="map"></div>
@@ -101,24 +110,117 @@
  var map = L.map('map').setView([51.505, -0.09], 13);
 
 L.tileLayer('http://tiles.codefor.de/static/bbs/germany/{z}/{x}/{y}.png', {
-     attribution: '<a target="_blank" href="http://ulmapi.de">UlmApi.de</a>, Stadt Ulm, Map data &copy; 2014 <a href="http://openstreetmap.org/">OpenStreetMap</a> contributors, Tiles: <a href="http://codefor.de">CfG-Map Server</a>.',
+     attribution: 'Map data &copy; 2014 <a href="http://openstreetmap.org/">OpenStreetMap</a> contributors, Tiles: <a href="http://codefor.de">CfG-Map Server</a>.',
      maxZoom: 18
   }).addTo(map);
-  //map.attributionControl.setPrefix(''); // Don't show the 'Powered by Leaflet' text.
 
-  //buildCtrls().addTo(map);
 
   var ulm = new L.LatLng(48.40, 9.98);
   map.setView(ulm, 10);  
-  var gpx = 'file:///C:/Users/tobi/Documents/smap/SMAP/Blaubeuren-Ulm.gpx'; // URL to your GPX file or the GPX itself
- new L.GPX(gpx, {async: true}).addTo(map);                                                                                  
-           var gpx2 = 'file:///C:/Users/tobi/Documents/smap/SMAP/ADK-T04.gpx'; // URL to your GPX file or the GPX itself
-new L.GPX(gpx2, {async: true}).addTo(map);   
-      var gpx3 = 'file:///C:/Users/tobi/Desktop/gpx/ADK-T20.gpx'; // URL to your GPX file or the GPX itself
-new L.GPX(gpx3, {async: true}).addTo(map);
+
+  
+  var tracks = [
+  	{
+  		'url' :  'file:///C:/Users/tobi/Documents/smap/SMAP/Blaubeuren-Ulm.gpx',
+  		'Profil' : "Rad",
+  		"Filter" : "Sonnig",
+  		"Boden"  : "Teilweise Asphalt",
+  		"Gelaendelevel" : "Einfach"
+  	},
+ 	{
+  		'url' :  'file:///C:/Users/tobi/Documents/smap/SMAP/ADK-T04.gpx',
+  		'Profil' : "Fuss",
+  		"Filter" : "Sonnig",
+  		"Boden"  : "Teilweise Asphalt",
+  		"Gelaendelevel" : "Einfach"
+  	},
+	{
+  		'url' : 'file:///C:/Users/tobi/Documents/smap/SMAP/ulmer-hoehenweg-suedweg.gpx',
+  		'Profil' : "Fuss",
+  		"Filter" : "Schattig",
+  		"Boden"  : "Durchgehend Asphalt",
+  		"Gelaendelevel" : "Mittel"
+  	}, 
+{
+  		'url' : 'file:///C:/Users/tobi/Documents/smap/SMAP/ulmer-hoehenweg-verbindungen.gpx',
+  		'Profil' : "Fuss",
+  		"Filter" : "Schattig",
+  		"Boden"  : "Durchgehend Asphalt",
+  		"Gelaendelevel" : "Mittel"
+  	}, 	
+{
+  		'url' : 'file:///C:/Users/tobi/Documents/smap/SMAP/ulmer-hoehenweg-nordweg.gpx',
+  		'Profil' : "Fuss",
+  		"Filter" : "Schattig",
+  		"Boden"  : "Durchgehend Asphalt",
+  		"Gelaendelevel" : "Mittel"
+  	},
+{
+  		'url' : 'file:///C:/Users/tobi/Documents/smap/SMAP/BfR_Iller_Radweg.gpx',
+  		'Profil' : "Fuss",
+  		"Filter" : "Schattig",
+  		"Boden"  : "Durchgehend Asphalt",
+  		"Gelaendelevel" : "Mittel"
+  	},
+  	{                                         
+  		'url' : 'file:///C:/Users/tobi/Documents/smap/Smap/D-Route1.gpx',
+  		'Profil' : "Rad",
+  		"Filter" : "Sonnig",
+  		"Boden"  : "Teilweise Asphalt",
+  		"Gelaendelevel" : "Einfach"
+  	}
+        	
+           	
+  ];
+  
+  //Tracks laden
+  tracks.forEach(function(track){
+  
+		 track.gpx = new L.GPX(track.url, {async: true}).on('loaded', function(e){
+		 	var laenge = e.target.get_distance();
+		 	if(laenge < 10000){
+		 		track.Laenge = "Kurz";
+		 	}
+		 	else if(laenge < 20000){
+		 		track.Laenge = "Mittel";
+		 	}
+		 	else{
+		 		track.Laenge = "Lang";
+		 	}
+		 });
+  
+  });
+  
+  var aktualisieren = function(){
+  
+  		var auswahlProfil = document.forms.Auswahl.elements.Profil.value;
+  		var auswahlFilter =  document.forms.Auswahl.elements.Filter.value;
+  		var auswahlBoden =  document.forms.Auswahl.elements.Boden.value;
+  		var auswahlGelaendelevel =  document.forms.Auswahl.elements.Gelaendelevel.value;
+  		var auswahlLaenge =  document.forms.Auswahl.elements.Laenge.value;
+  		
+  		  tracks.forEach(function(track){
+
+			map.removeLayer(track.gpx);
+
+			if(auswahlProfil == track.Profil && auswahlFilter == track.Filter && auswahlBoden == track.Boden && auswahlGelaendelevel == track.Gelaendelevel && auswahlLaenge == track.Laenge){
+	  			track.gpx.addTo(map);
+			}  			
+  
+		  });
+  		
+  };
+  
+  aktualisieren();
+  
+  
+	var inputs = document.getElementsByTagName("input"); 
+	for (i=0; i<inputs.length; i++){
+		inputs[i].onchange = aktualisieren;
+	}
+
 </script>
-    var profil=$('input[name="Profil"]:checked').val());  
-</script> 
+   
 
 </body>
 </html>      
