@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes" ?>
+<gpx version="1.1" creator="EADS Geogrid - Navigation" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+    <metadata>
+        <name>Waypoints</name>
+        <time>2010-04-21T20:32:58Z</time>
+    </metadata>
+    <wpt lat="48.241026" lon="9.545320">
+        <ele>536.000000</ele>
+        <name>RECHTENSTEIN</name>
+        <type>Waypoint</type>
+    </wpt>
+    <wpt lat="48.238764" lon="9.534841">
+        <ele>513.000000</ele>
+        <name>BRAUNSEL</name>
+        <type>Waypoint</type>
+    </wpt>
+    <wpt lat="48.264016" lon="9.534014">
+        <ele>607.000000</ele>
+        <name>STATIONENWEG</name>
+        <type>Waypoint</type>
+    </wpt>
+    <wpt lat="48.252101" lon="9.564038">
+        <ele>661.000000</ele>
+        <name>HOCHBERG</name>
+        <type>Waypoint</type>
+    </wpt>
+    <wpt lat="48.236585" lon="9.569899">
+        <ele>538.000000</ele>
+        <name>KLOSTER OBERMARCHTAL</name>
+        <type>Waypoint</type>
+    </wpt>
+</gpx>

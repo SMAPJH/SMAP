@@ -5,28 +5,27 @@
     <meta charset="UTF-8">
     <title>SMAP</title>
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="" content="">
     <meta name="keywords" content="">
      <style>
      .Abstand {
          padding-top: 10px;
-         padding-bottom: 10px;     
+         padding-bottom: 10px;         
          padding-left: 10px;
-         background-color: red;
+         background-color:#454545;
          margin-bottom: 3px;
          
-         
-             
+
          } 
          .Auswahl{
             padding-top: 3px;
             padding-left: 5px;
-            background-color: blue;
+            background-color:#888888;
          }
          .Auswahl1{
              padding-top: 3px;
              padding-left: 5px;
-             background-color: blue;
+             background-color: #888888;
          }
     #map { height: 500px; } 
      </style>
@@ -50,30 +49,43 @@
  
   <tr>
     <td width="200px"> 
-    <div class="Abstand">Einstellungen</div>
+    <div class="Abstand"><span style="color: #FFFFFF;">Einstellungen</span></div>
                           
-    <div  class="Abstand"> Profil </div>
-    <div  class="Auswahl"><input type="radio" name="Profil" value="Rad" checked> Rad</div>
-    <div  class="Auswahl"><input type="radio" name="Profil" value="Fuss"> Fuss</div>                      
-    <div  class="Abstand"> Filter</div>
-    <div  class="Auswahl1"><input type="radio" name="Filter" value="Sonnig" checked> Sonnig</div>
-     <div  class="Auswahl1"><input type="radio" name="Filter" value="Mittel"> Mittel </div>
-      <div  class="Auswahl1"><input type="radio" name="Filter" value="Schattig"> Schattig </div>
-    <div  class="Abstand"> Laenge</div>
+    <div  class="Abstand"> <span style="color: #FFFFFF;">Profil</span> </div>
     
-    <div  class="Abstand"> Boden</div>
-     <div  class="Auswahl"><input type="radio" name="Boden" value="Durchgehend Asphalt" checked> Durchgehend Asphalt</div>
-     <div  class="Auswahl"><input type="radio" name="Boden" value="Teilweise Asphalt"> Teilweise Asphalt</div>
-     <div  class="Auswahl"><input type="radio" name="Boden" value="Teilweise Asphalt"> Waldweg</div>
-      <div  class="Auswahl"><input type="radio" name="Boden" value="Teilweise Asphalt"> Feldwege</div>
+    <div  class="Auswahl"><input type="radio" name="Profil" value="Rad" checked> Rad</div>
+    
+    <div  class="Auswahl"><input type="radio" name="Profil" value="Fuss"> Fuss</div> 
+                         
+    <div  class="Abstand"> <span style="color: #FFFFFF;">Filter</span></div>
+    
+    <div  class="Auswahl1"><input type="radio" name="Filter" value="Sonnig" checked> Sonnig</div>
+    
+     <div  class="Auswahl1"><input type="radio" name="Filter" value="Mittel"> Mittel </div>
      
-    <div  class="Abstand"> Gelaendelevel</div>
+      <div  class="Auswahl1"><input type="radio" name="Filter" value="Schattig"> Schattig </div>
+      
+    <div  class="Abstand"> <span style="color: #FFFFFF;">Laenge</span></div>
+    
+    
+    <div  class="Abstand"> <span style="color: #FFFFFF;">Boden</span></div>
+    
+     <div  class="Auswahl"><input type="radio" name="Boden" value="Durchgehend Asphalt" checked> Durchgehend Asphalt</div>
+     
+     <div  class="Auswahl"><input type="radio" name="Boden" value="Teilweise Asphalt"> Teilweise Asphalt</div>
+     
+     <div  class="Auswahl"><input type="radio" name="Boden" value="Teilweise Asphalt"> Waldweg</div>
+     
+      <div  class="Auswahl"><input type="radio" name="Boden" value="Teilweise Asphalt"> Feldwege</div>
+      
+     
+    <div  class="Abstand"> <span style="color: #FFFFFF;">Gelaendelevel</span></div>
                            <div  class="Auswahl"><input type="radio" name="Gelaendelevel" value="Einfach" checked> Einfach</div>
-                          <div  class="Auswahl"><input type="radio" name="Gelaendelevel" value="Mittel" checked> Mittel</div> 
+                          <div class="Auswahl"><input type="radio" name="Gelaendelevel" value="Mittel" checked> Mittel</div> 
                             <div  class="Auswahl"><input type="radio" name="Gelaendelevel" value="Anspruchsvoll" checked>Anspruchsvoll </div>
               
     
-    <div  class="Abstand"> Wetter</div>
+    <div  class="Abstand"> <span style="color: #FFFFFF;">Wetter</span></div>
     </td>
         <td> 
             <div id="map"></div>
@@ -99,10 +111,15 @@ L.tileLayer('http://tiles.codefor.de/static/bbs/germany/{z}/{x}/{y}.png', {
   var ulm = new L.LatLng(48.40, 9.98);
   map.setView(ulm, 10);  
   var gpx = 'file:///C:/Users/tobi/Documents/smap/SMAP/Blaubeuren-Ulm.gpx'; // URL to your GPX file or the GPX itself
-new L.GPX(gpx, {async: true}).addTo(map);                                                                                  
+ new L.GPX(gpx, {async: true}).addTo(map);                                                                                  
            var gpx2 = 'file:///C:/Users/tobi/Documents/smap/SMAP/ADK-T04.gpx'; // URL to your GPX file or the GPX itself
 new L.GPX(gpx2, {async: true}).addTo(map);   
+      var gpx3 = 'file:///C:/Users/tobi/Desktop/gpx/ADK-T20.gpx'; // URL to your GPX file or the GPX itself
+new L.GPX(gpx3, {async: true}).addTo(map);
 </script>
+    var profil=$('input[name="Profil"]:checked').val());  
+</script> 
+
 </body>
-</html>
+</html>      
            
